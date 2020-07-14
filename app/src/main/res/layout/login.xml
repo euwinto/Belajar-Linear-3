@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CAE3E0"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+    <EditText
+        android:hint="Username"
+        android:paddingLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:background="#fff"/>
+
+    <EditText
+        android:hint="Password"
+        android:paddingLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:background="#fff"/>
+    <Button
+        android:layout_marginLeft="120dp"
+        android:text="Log In"
+        android:layout_width="150dp"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:gravity="center"
+        android:text="Belum ada akun , buat dulu bro"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+
+</LinearLayout>
